@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/techreturners/lm-code-intro-react-router-fakelandia/issues"
   },
-  "homepage": "https://github.com/techreturners/lm-code-intro-react-router-fakelandia#readme"
+  "homepage": "https://github.com/techreturners/lm-code-intro-react-router-fakelandia#readme",
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "react-router-dom": "^6.3.0"
+  }
 }
