@@ -1,12 +1,10 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Routes, Route } from "react-router-dom";
-import Header from "./components/header";
-import Layout from "./components/layout";
-import ContentHome from "./components/home";
-import ContentConfess from "./components/confess";
-import ContentMisdemeanours from "./components/misdemeanours";
-import ContentNoPage from "./components/nopage";
+import ContentHome from "./ContentHome/ContentHome";
+import ContentConfess from "./ContentConfess/ContentConfess";
+import ContentMisdemeanours from "./ContentMisdemeanours/ContentMisdemeanours";
+import ContentNoPage from "./ContentNoPage/ContentNoPage";
 
 import Navbar from './NavMenu/Navbar';
 import logoSVG from './logo.svg';
