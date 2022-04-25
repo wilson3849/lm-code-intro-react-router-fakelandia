@@ -1,3 +1,3 @@
-const Confess : React.FC = () => <div>Confess!</div>;
+const ContentConfess : React.FC = () => <div>Confess!</div>;
 
-export default Confess;
+export default ContentConfess;

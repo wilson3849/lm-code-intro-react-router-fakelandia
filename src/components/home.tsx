@@ -1,3 +1,3 @@
-const Home : React.FC = () => <div>Home!</div>;
+const ContentHome : React.FC = () => <div>Home!</div>;
 
-export default Home;
+export default ContentHome;

@@ -1,3 +1,3 @@
-const MisDemeanours : React.FC = () => <div>MisDemeanours!</div>;
+const ContentMisdemeanours : React.FC = () => <div>MisDemeanours!</div>;
 
-export default MisDemeanours;
+export default ContentMisdemeanours;
