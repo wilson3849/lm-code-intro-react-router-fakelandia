@@ -16,7 +16,6 @@ export default async function generateMisdemeanours(
 	await sleep(1500);
 
 	let amount = number ?? 50;
-	console.log("amount"+ amount);
 	const misdemeanours = [];
 
 	for (let i = 0; i < amount; i++) {
@@ -26,7 +25,6 @@ export default async function generateMisdemeanours(
 			date: new Date().toLocaleDateString(),
 		});
 	}
-	console.log("length"+ misdemeanours.length);
 	return misdemeanours;
 }
 

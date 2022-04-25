@@ -109,7 +109,6 @@ const ContentMisdemeanours : React.FC = () => {
             displayMisdemeaners = MDs;
         }
 
-        console.table(displayMisdemeaners)
         // switch to display only filtered misdemeaners
         displayMisdemeaners.forEach((item, index)  => {
             elements.push(<Misdemeaner key={index} 
